@@ -67,7 +67,7 @@ body {
     display: none;
     position: fixed;
     bottom: 40px;
-    left: 30px;
+    right: 30px;
     z-index: 99;
     font-size: 1rem;
     background-color: #4CAF50;
@@ -80,8 +80,7 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     transition: background-color 0.3s;
   }
-  
-  #btnTopo:hover {
+    #btnTopo:hover {
     background-color: #388E3C;
   }
 
@@ -91,7 +90,7 @@ body {
   top: 40px;
   right: 30px;
   z-index: 99;
-  font-size: 1.5rem;
+  font-size: 1rem;
   background-color: #4CAF50;
   color: white;
   border: none;
