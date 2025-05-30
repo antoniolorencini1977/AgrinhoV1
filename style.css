@@ -85,7 +85,7 @@ footer {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s;
@@ -107,7 +107,7 @@ footer {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   transition: background-color 0.3s;
