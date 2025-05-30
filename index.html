@@ -14,32 +14,35 @@
 <body>
 
 
+
+  <button onclick="scrollToBottom()" id="btnFim" title="Ir para o fim">⬇️ Ir para o final</button>
+
+  <script>
+    // Função para rolar suavemente até o fim
+    function scrollToBottom() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    // Mostrar/ocultar o botão ao rolar
+    window.addEventListener('scroll', function () {
+      const btn = document.getElementById("btnFim");
+      if (document.body.scrollTop < 100 && document.documentElement.scrollTop < 100) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    });
+  </script>
+
+
+
+
   <header>
     <h1>🌱 Horta na Porta</h1>
     <h2>Uma ponte entre o campo e a cidade</h2>
     <h3>Do campo ou da cidade para a sua mesa, com inovação e responsabilidade</h3>
   </header>
 
-
-
-<button onclick="scrollToBottom()" id="btnFim" title="Ir para o fim">⬇️ Ir para o final</button>
-
-<script>
-  // Função para rolar suavemente até o fim
-  function scrollToBottom() {
-    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-  }
-
-  // Mostrar/ocultar o botão ao rolar
-  window.addEventListener('scroll', function () {
-    const btn = document.getElementById("btnFim");
-    if (document.body.scrollTop < 100 && document.documentElement.scrollTop < 100) {
-      btn.style.display = "block";
-    } else {
-      btn.style.display = "none";
-    }
-  });
-</script>
 
 
 
@@ -50,7 +53,7 @@
     <a href="#como-funciona">Como Funciona</a>
     <a href="#tecnologia">Tecnologia</a>
     <a href="#galeria">Galeria</a>
-    
+
   </nav>
 
   <main>
